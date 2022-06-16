@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="container"
+  >
+    <h1
+      className="title"
+    >
+      Cynergy
+    </h1>
+    <div
+      className="score_container"
+    >
+      <div />
+      <img
+        alt="cynergy logo"
+        src={
+          Object {
+            "process": [Function],
+          }
+        }
+      />
+      <div
+        className="login_container card"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <div
+            className="mb-3"
+          >
+            <input
+              className="form-control"
+              id="username"
+              onChange={[Function]}
+              placeholder="Enter username"
+            />
+          </div>
+          <div
+            className="mb-3"
+          >
+            <input
+              className="form-control"
+              id="password"
+              onChange={[Function]}
+              placeholder="Enter password"
+              type="password"
+            />
+          </div>
+          <button
+            className="btn btn-primary"
+            disabled={false}
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+    <a
+      href="/register"
+    >
+      Create Account
+    </a>
+    <a
+      href="/resetpassword"
+    >
+      Reset Password
+    </a>
+  </div>
+  <div
+    className="Toastify"
+  />
+</div>
+`;

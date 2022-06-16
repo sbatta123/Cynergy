@@ -1,0 +1,90 @@
+.circle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color:#25267da2;
+    border-radius: 50%;
+    text-anchor: 'middle';
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+
+  }
+  .label {
+    display: flex;
+    width: 70px;
+    height: 20px;
+    background-color: #25267D;
+    border-width: 20px;
+    border-width:10px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 10px;
+    float: left;
+
+  }
+  .labelText {
+      color: white;
+      margin: auto;
+      font-size: 8px
+  }
+
+  .initials {
+    margin: auto;
+    color: #25267D;
+    font-weight: bold
+  }
+
+  .postHeader {
+    display: sticky;
+    margin-top: 10px;
+    display:inline-block
+  }
+  .headerText1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    color: #25267D;
+    font-weight: bold;
+  }
+  .headerText2 {
+    margin-left: 20px;
+    font-size:10px;
+    margin-top: 5px;
+    padding-top: 0px
+  }
+  .messageText {
+    font-size: 10px;
+    color: #52eeff;
+    font-weight: bold;
+  }
+  .headerTextLayout{
+    float: left;
+  }
+  .labelLayout {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px
+  }
+
+  .postText {
+      font-size: 15px;
+      text-align: left;
+      margin-left: 10px;
+      margin-bottom: 15px
+  }
+.container {
+  margin-top: 50px
+}
+p {
+  float: 'left';
+  height: 50%;
+  left: 50%;
+  width: 50%;
+  padding: 5px;
+  overflow-y: 'scroll';
+  position: 'relative';
+}

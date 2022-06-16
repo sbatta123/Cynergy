@@ -1,0 +1,220 @@
+.circle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color:#25267da2;
+    border-radius: 50%;
+    text-anchor: 'middle';
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+  }
+
+  .circleTwo {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color:#25267da2;
+    border-radius: 50%;
+    text-anchor: 'middle';
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+  }
+
+  .label {
+    display: flex;
+    width: 70px;
+    height: 20px;
+
+  }
+
+  .imgLayout {
+    margin-bottom: -45px;
+    display: flex;
+    width: 40px;
+    height: 30px;
+
+  }
+
+  .imgLayoutTwo {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-left: -200px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color:#ffffffa2;
+    background-color: #ffffffa2;
+
+  } 
+  .labelText {
+      font-size: 10px
+  }
+
+  .initials {
+    margin: auto;
+    color: #25267D;
+    font-weight: bold
+  }
+
+  .postHeader {
+    display: flex;
+    margin-top: 10px;
+    display:inline-block
+  }
+  .headerText1 {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    color: #25267D;
+    font-weight: bold;
+  }
+  .headerText2 {
+    margin-left: 15px;
+    font-size:10px;
+    margin-top: 0px;
+    padding-top: 0px
+  }
+
+  .headerText3 {
+    text-align: left;
+    margin-left: 10px;
+    font-size:10px;
+    margin-top: 5px;
+    padding-top: 2px
+  }
+
+  .headerTextLayout{
+    margin-left: 0px;
+    float: left;
+  }
+
+  .headerTextLayoutTwo{
+    margin-left: 0px;
+    margin-top: 1px;
+    float: left;
+    font-size: 10px;
+    overflow-x: scroll;
+  }
+
+  .headerTextLayoutFour{
+    margin-left: -190px;
+    margin-right: 320px;
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .headerTextLayoutFive{
+    margin-left: -190px;
+    margin-right: 290px;
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .headerTextLayoutSix{
+    margin-left: -190px;
+    margin-right: 310px;
+    margin-top: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .labelLayout {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 15px
+  }
+
+  .buttonLayout {
+    background: transparent;
+    border: none !important;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    margin-left: -200px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    cursor:pointer;
+  }
+
+  .postText {
+      font-size: 15px;
+      text-align: left;
+      margin-left: 10px;
+      margin-bottom: 15px
+  }
+
+  .card{
+    margin-top: 0px;
+    margin-bottom: 12px;
+    border-width: 1px;
+    border-color: rgb(206, 206, 206);
+}
+
+
+    .oval {
+    width:80px;
+    height: 20px;
+    border-radius: 25px;
+    border-width:1px;
+    border-style: solid;
+    background-color: white;
+    border-color: #25267D;
+    color: #25267D;
+    text-anchor: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    float: left;
+    display: sticky;
+    font-size:10px
+}
+
+.ovalTogether {
+  display:inline-block;
+  display:block;
+}
+
+.buttonLayoutTwo {
+  background: transparent;
+  border: solid;
+  display: flex;
+  width: 10px;
+  height: 10px;
+  margin-left: 400px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  cursor:pointer;
+  float: left;
+  font-size: 10;
+  color: black;
+}
+
+.initialsTwo {
+  color: #25267D;
+  font-weight: bold
+}
+
+.initialsThree {
+  color: #25267D;
+  font-weight: bold;
+  font-size: 5px;
+  border-radius: 50%;
+}
+
+.right {
+  float: right;
+  margin-right: 20px
+}

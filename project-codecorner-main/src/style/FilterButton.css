@@ -1,0 +1,23 @@
+.filter {
+    width:80px;
+    height: 20px;
+    border-radius: 25px;
+    border-width:1px;
+    border-style: solid;
+    /* background-color: white; */
+    border-color: #25267D;
+    color: #25267D;
+    text-anchor: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    float: left;
+    display: sticky;
+    font-size:10px;
+    padding: 5px
+  }
+  .filterText {
+      color: #22236e;
+      margin: auto;
+      font-size: 8px
+  }

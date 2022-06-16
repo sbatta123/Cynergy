@@ -1,0 +1,103 @@
+.main-container {
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+}
+
+.messaging-container {
+  flex: 1;
+}
+
+.conversation-list-item {
+  text-align: left;
+}
+
+.conversation-list-item .avatar {
+  display: flex;
+  justify-content: center;
+}
+.conversation-list-item .avatar .circle {
+  width:70px;
+  height:70px;
+}
+
+.conversation-container {
+  display:flex;
+  flex-direction: column;
+}
+
+.conversation-header {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 10px
+}
+
+.conversation-header .avatar {
+  margin-bottom: 10px
+}
+
+.conversation-header .avatar .circle {
+  margin-left: 0;
+  float:none;
+  clear: both;
+}
+
+.conversation-header .username {
+  text-align: left;
+}
+
+.conversation-content {
+  flex: 1;
+}
+
+.conversation-messages {
+  display:flex;
+  flex-direction: column-reverse
+}
+
+.message-item {
+  display:flex;
+  margin: 10px 0 ;
+}
+
+.message-item .avatar .circle {
+  margin-left: 0;
+  float:none;
+  clear: both;
+} 
+
+.message-item .message-body {
+  text-align: left;
+}
+
+.conversation-textarea {
+  width: 100%;
+}
+
+.message-item.message-sent {
+  /* background-color: green; */
+  margin-right:auto;
+}
+
+.message-item.message-received {
+  /* background-color: blue; */
+  margin-left: auto;
+  flex-direction: row-reverse;
+}
+.message-item .avatar .circle {
+margin: 0 10px;
+}
+
+/* 
+.message-item.message-item.message-received .avatar .circle {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.message-item.message-item.message-sent .avatar .circle {
+  margin-left: 10px;
+} */
+
+.message-body .timestamp{
+  color: #999;
+  font-size:16px
+}
